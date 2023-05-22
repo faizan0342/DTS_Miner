@@ -1,0 +1,10 @@
+﻿  cpuSolver.cpp
+  solver.cpp
+  keccak-tiny.c
+  sha3-midstate.c
+     Creating library D:\check-new-mine_wth_upgade\Name_change_miner\BNBTCminer-master (3)\BNBTCminer-master\SoliditySHA3Miner\bin\Release\net5.0\CPUSoliditySHA3Solver.lib and object D:\check-new-mine_wth_upgade\Name_change_miner\BNBTCminer-master (3)\BNBTCminer-master\SoliditySHA3Miner\bin\Release\net5.0\CPUSoliditySHA3Solver.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 125 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CPUSoliditySHA3Solver.vcxproj -> D:\check-new-mine_wth_upgade\Name_change_miner\BNBTCminer-master (3)\BNBTCminer-master\SoliditySHA3Miner\bin\Release\net5.0\CPUSoliditySHA3Solver.dll
