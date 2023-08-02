@@ -1,7 +1,7 @@
-# BNBTCminer
+
 All-in-one mixed multi-GPU (nVidia, AMD, Intel) & CPU miner solves proof of work to mine supported EIP918 tokens in a single instance (with API).
 
-Current latest public release version: [1.2.0](https://github.com/Mineions/BNBTCminer/releases/latest)
+
 
 Runs on Windows x64
 
@@ -13,36 +13,7 @@ Built with .NET 5.0, VC++ 19.28.29914, nVidia CUDA SDK 10.2 64-bit, and AMD APP 
 
 - CUDA 9.2 requires a minimum nVidia driver version of 396 [https://www.nvidia.com/drivers/beta]
 
-If you are looking for a GUI version, refer to this link [https://github.com/lwYeo/SoliditySHA3MinerUI/releases]
 
-### Releases can be found [here](https://github.com/Mineions/BNBTCminer/releases).
-
-
-## LICENSE
-
-BNBTCminer is licensed under the [Apache License, Version 2.0 (the "License")](http://www.apache.org/licenses/LICENSE-2.0);
-
-Libraries are included in the Software under the following license terms:
-    
-    libkeccak-tiny [https://github.com/coruus/keccak-tiny/]
-    
-    Nethereum [https://github.com/Nethereum/Nethereum/blob/master/LICENSE.md]
-    
-    Json.NET [https://github.com/JamesNK/Newtonsoft.Json/blob/master/LICENSE.md]
-    
-    Common Infrastructure Libraries for .NET [http://netcommon.sourceforge.net/license.html]
-    
-    Bouncy Castle [https://www.bouncycastle.org/licence.html]
-    
-
-### Donation addresses
-
-    ETH (or any ERC 20/918 tokens)  : 0x9172ff7884CEFED19327aDaCe9C470eF1796105c
-    BTC                             : 3GS5J5hcG6Qcu9xHWGmJaV5ftWLmZuR255
-    LTC                             : LbFkAto1qYt8RdTFHL871H4djendcHyCyB
-    
-
-Usage: BNBTCminer [OPTIONS]
 
 Options:
 
@@ -86,11 +57,11 @@ Options:
 
     submitStale             Submit stale jobs, may create more rejected shares (default: false)
 
-    abiFile                 Token abi in a file (default: 'BNBTC.abi' in the same folder as this miner)
+    abiFile                 Token abi in a file (default: 'DTS.abi' in the same folder as this miner)
 
     web3api                 User-defined web3 provider URL (default: Infura mainnet provider [dev account, for TESTING PURPOSE only])
 
-    contract                Token contract address (default: 0xbtc contract address)
+    contract                Token contract address (default: I Life M Token contract address)
 
     hashrateUpdateInterval  Interval (miliseconds) for GPU hashrate logs (default: 30000)
 
@@ -122,18 +93,14 @@ Options:
 
     gasApiMax               (Solo only) Maximum gas price to mine in GWei from API (default: 5, decimals allowed)
 
-    pool                    (Pool only) URL of pool mining server (default: http://bnbtcpool.crnx.org:8080)
+    pool                    (Pool only) URL of pool mining server (default: http://110.39.171.107:8080)
 
     secondaryPool           (Optional) URL of failover pool mining server
 
     logFile                 Enables logging of console output to '{appPath}\\Log\\{yyyy-MM-dd}.log' (default: false)
 
-    devFee                  Set developer fee in percentage (default: 2.0%)
-
 
 ### NOTES
-
-Do refer to [GuideForPoolMining.txt](https://github.com/lwYeo/SoliditySHA3Miner/blob/master/SoliditySHA3Miner/MiningGuide/GuideForPoolMining.txt) on how to get started.
 
 Configuration is based on CLI (similar to ccminer), except ".abi" files are required for new tokens (You can manually create one and copy from etherscan.com -> Contract -> Code -> Contract ABI).
 
@@ -143,40 +110,5 @@ You will have to supply your own Ethereum address (or Private key if you solo mi
 
 It is recommended to use your own web3api (e.g. Infura / Geth / Parity) if you solo mine, default value is for TESTING PURPOSE ONLY.
 
-There is a default of 2.0% dev fee (Once every 50th nonce: starting from 11th if Pool mine, or starting from 50th if Solo mine).
-
-(the formula is "(nonce mod (100 / devFee)) = 0").
-
-Dev fee in solo mining is by sending the current reward amount after the successful minted block, using the same gas fee as provided in 'gasToMine'.
 
 In the case if the compute load for your GPU is not >= 99%, you can adjust the intensity via (amdIntensity/cudaIntensity/intelIntensity).
-
-Please feedback your results and suggestions so that I can improve the miner. You can either add an issue in the repository, or find me in discord (Amano7). Thanks for trying out this miner!
-
-### CREDITS
-
-Donations are encouraged to help support further development of this miner!
-
-Many thanks to the following developers and testers in the 0xBitcoin discord :
-
-lwYeo
-
-Azlehria
-
-mining-visualizer
-
-LtTofu/Mag517
-
-Infernal Toast
-
-0x1d00ffff
-
-TwenteMining
-
-Mikers
-
-Ghorge
-
-BRob
-
-Sly

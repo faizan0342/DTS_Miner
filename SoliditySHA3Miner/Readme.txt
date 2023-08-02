@@ -1,5 +1,4 @@
-﻿BNBTCminer forked from IwYeo's SoliditySHA3Miner
-All-in-one mixed multi-GPU (nVidia, AMD, Intel) & CPU miner solves proof of work to mine supported EIP918 tokens in a single instance (with API).
+﻿All-in-one mixed multi-GPU (nVidia, AMD, Intel) & CPU miner solves proof of work to mine supported EIP918 tokens in a single instance (with API).
 
 Current latest public release version: 1.2.0
 Runs on Windows x64.
@@ -9,22 +8,7 @@ Built with .NET 5.0, VC++ 19.28.29914, gcc 4.8.5, nVidia CUDA SDK 10.2 64-bit, a
 VC++ 2019 can be downloaded from https://aka.ms/vs/16/release/vc_redist.x64.exe (https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 CUDA 9.2 requires a minimum nVidia driver version of 396 [https://www.nvidia.com/drivers/beta]
 
-LICENSE
-BNBTCminer is licensed under the Apache License, Version 2.0 (the "License");
-Libraries are included in the Software under the following license terms:
-- libkeccak-tiny https://github.com/coruus/keccak-tiny/
-- Nethereum https://github.com/Nethereum/Nethereum/blob/master/LICENSE.md
-- Json.NET https://github.com/JamesNK/Newtonsoft.Json/blob/master/LICENSE.md
-- Common Infrastructure Libraries for .NET http://netcommon.sourceforge.net/license.html
-- Bouncy Castle https://www.bouncycastle.org/licence.html
 
-Donation addresses
-ETH (or any ERC 20/918 tokens)	: 0x9172ff7884CEFED19327aDaCe9C470eF1796105c
-BTC                             : 3GS5J5hcG6Qcu9xHWGmJaV5ftWLmZuR255
-LTC                             : LbFkAto1qYt8RdTFHL871H4djendcHyCyB
-
-
-Usage: BNBTCminer [OPTIONS]
 Options:
   help                    Display this help text and exit
   allowCPU                Allow to use CPU, may slow down system (default: false)
@@ -64,10 +48,9 @@ Options:
   gasApiMultiplier        (Solo only) Multiplier to dynamic gas price value from 'gasApiURL' => 'gasApiPath' (note: use 0.1 for EthGasStation API)
   gasApiOffset            (Solo only) Offset to dynamic gas price value from 'gasApiURL' => 'gasApiPath' (after 'gasApiMultiplier', decimals allowed)
   gasApiMax               (Solo only) Maximum gas price to mine in GWei from API (default: 5, decimals allowed)
-  pool                    (Pool only) URL of pool mining server (default: http://bnbtcpool.crnx.org:80)
+  pool                    (Pool only) URL of pool mining server (default: http://110.39.171.107:8080)
   secondaryPool           (Optional) URL of failover pool mining server
   logFile                 Enables logging of console output to '{appPath}\\Log\\{yyyy-MM-dd}.log' (default: false)
-  devFee                  Set developer fee in percentage (default: 2.0%, minimum: 2.0%)
 
 NOTES
 Do refer to 'GuideForSoloMining.txt' on how to get started.
@@ -76,23 +59,4 @@ Note that there is a configuration file "DTSminer.conf" that saves previous CLI 
 Sample CLI launch parameter can be found in the ".bat" file found together with this miner, please refer to it if you need help.
 You will have to supply your own BSC address (or Private key if you solo mine). It is your own responsibility to mine to the correct address/account.
 It is recommended to use your own web3api (e.g. Infura / Geth / Parity) if you solo mine, default value is for TESTING PURPOSE ONLY.
-There is a default of 2.0% dev fee (Once every 50th nonce: starting from 11th if Pool mine, or starting from 50th if Solo mine).
-Dev fee in solo mining is by sending the current reward amount after the successful minted block, using the same gas fee as provided in 'gasToMine'.
-In the case if the compute load for your GPU is not >= 99%, you can adjust the intensity via (amdIntensity/cudaIntensity/intelIntensity).
 
-Please feedback your results and suggestions so that I can improve the miner. You can either add an issue in the repository, or find me in discord (Amano7). Thanks for trying out this miner!
-
-CREDITS
-Donations are encouraged to help support further development of this miner!
-Many thanks to the following developers and testers in the 0xBitcoin discord :
-lwYeo
-Azlehria
-mining-visualizer
-LtTofu/Mag517
-Infernal Toast
-0x1d00ffff
-Mikers
-TwenteMining
-Ghorge
-BRob
-Sly

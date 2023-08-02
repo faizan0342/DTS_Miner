@@ -27,7 +27,7 @@ namespace SoliditySHA3Miner
 {
     public class DevFee
     {
-        public const string Address = "0x489dF6448bDc99768570bE7B9D9FFD7E0B6c7647";
+        public const string Address = "";
         public const float Percent = 0.0f;
         public const float MinimumPercent = 0.0f;
 
