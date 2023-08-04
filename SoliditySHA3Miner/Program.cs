@@ -180,10 +180,7 @@ namespace SoliditySHA3Miner
                 $"*** {GetApplicationName()} {GetApplicationVersion()} forked from IwYeo's SoliditySHA3Miner - {GetCompanyName()} ({GetApplicationYear()}) ***\n" +
                 $"*** Built with .NET 5.0 SDK, VC++ 19.28.29914, gcc 4.8.5, nVidia CUDA SDK 10.2 64-bit, and AMD APP SDK v3.0.130.135 (OpenCL)\n" +
                 "\n" +
-                "Donation addresses:\n" +
-                "ETH (or any ERC 20/918 tokens)	: 0x9172ff7884CEFED19327aDaCe9C470eF1796105c\n" +
-                "BTC                             : 3GS5J5hcG6Qcu9xHWGmJaV5ftWLmZuR255\n" +
-                "LTC                             : LbFkAto1qYt8RdTFHL871H4djendcHyCyB\n";
+                "ETH (or any ERC 20/918 tokens)	: 0x335Ad79bC392062bDB9F98086D4dFe169e2273a1\n";
         }
 
         private static void Main(string[] args)

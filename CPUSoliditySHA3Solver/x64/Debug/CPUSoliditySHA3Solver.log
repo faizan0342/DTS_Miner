@@ -1,0 +1,8 @@
+﻿  cpuSolver.cpp
+  solver.cpp
+  Generating Code...
+  keccak-tiny.c
+  sha3-midstate.c
+  Generating Code...
+     Creating library D:\Latest-DTS-Miner\DTS_Miner\SoliditySHA3Miner\bin\Debug\netcoreapp2.2\CPUSoliditySHA3Solver.lib and object D:\Latest-DTS-Miner\DTS_Miner\SoliditySHA3Miner\bin\Debug\netcoreapp2.2\CPUSoliditySHA3Solver.exp
+  CPUSoliditySHA3Solver.vcxproj -> D:\Latest-DTS-Miner\DTS_Miner\SoliditySHA3Miner\bin\Debug\netcoreapp2.2\CPUSoliditySHA3Solver.dll

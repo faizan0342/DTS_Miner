@@ -2058,11 +2058,11 @@
   "project": {
     "version": "1.2.0",
     "restore": {
-      "projectUniqueName": "D:\\check-new-mine_wth_upgade\\Name_change_miner\\BNBTCminer-master (3)\\BNBTCminer-master\\SoliditySHA3Miner\\SoliditySHA3Miner.csproj",
+      "projectUniqueName": "D:\\Latest-DTS-Miner\\DTS_Miner\\SoliditySHA3Miner\\SoliditySHA3Miner.csproj",
       "projectName": "DTSminer",
-      "projectPath": "D:\\check-new-mine_wth_upgade\\Name_change_miner\\BNBTCminer-master (3)\\BNBTCminer-master\\SoliditySHA3Miner\\SoliditySHA3Miner.csproj",
+      "projectPath": "D:\\Latest-DTS-Miner\\DTS_Miner\\SoliditySHA3Miner\\SoliditySHA3Miner.csproj",
       "packagesPath": "C:\\Users\\Saqib\\.nuget\\packages\\",
-      "outputPath": "D:\\check-new-mine_wth_upgade\\Name_change_miner\\BNBTCminer-master (3)\\BNBTCminer-master\\SoliditySHA3Miner\\obj\\",
+      "outputPath": "D:\\Latest-DTS-Miner\\DTS_Miner\\SoliditySHA3Miner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

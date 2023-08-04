@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/IDm/ci6MM/HVEFqu4e+O6/Pdk3iK+XAO6NJzetCNMKqbV+6jujkEkndur794YZ2N4iMQz8/jH5cXAsITkfujw==",
+  "dgSpecHash": "DKeU6c/PuZwDjLkTyfgDEYvR6yRRlJsz2DgxGixuailtG3zzYldGEAcXBHnZRoc6Loo3CNUCWnrW7SlEUu/UXA==",
   "success": true,
-  "projectFilePath": "D:\\check-new-mine_wth_upgade\\Name_change_miner\\BNBTCminer-master (3)\\BNBTCminer-master\\SoliditySHA3Miner\\SoliditySHA3Miner.csproj",
+  "projectFilePath": "D:\\Latest-DTS-Miner\\DTS_Miner\\SoliditySHA3Miner\\SoliditySHA3Miner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Saqib\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\Saqib\\.nuget\\packages\\common.logging.core\\3.4.1\\common.logging.core.3.4.1.nupkg.sha512",
